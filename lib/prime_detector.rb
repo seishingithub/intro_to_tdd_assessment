@@ -1,5 +1,7 @@
+require 'prime'
+
 class PrimeDetector
   def prime?(number)
-    true
+    Prime.prime?(number)
   end
 end
